@@ -1,0 +1,41 @@
+{
+  "name": "dingo",
+  "version": "1.0.0",
+  "description": "Netbeans, Gulp , Express, Angular2, Typescript",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "netbeans",
+    "gulp",
+    "express",
+    "angular2",
+    "typescript",
+    "server",
+    "client"
+  ],
+  "author": "Manfred Steiner <sx@htl-kaindorf.at>",
+  "license": "ISC",
+  "private": true,
+  "contributors": [],
+  "dependencies": {
+    "@angular/common": "^2.4.1",
+    "@angular/compiler": "^2.4.1",
+    "@angular/core": "^2.4.1",
+    "@angular/platform-browser": "^2.4.1",
+    "@angular/platform-browser-dynamic": "^2.4.1",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.0.2",
+    "systemjs": "^0.19.41",
+    "zone.js": "^0.7.4"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-typescript": "^3.1.3",
+    "typescript": "^2.1.4"
+  }
+}

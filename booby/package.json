@@ -1,0 +1,31 @@
+{
+  "name": "Angular2-Booby",
+  "version": "1.0.0",
+  "description": "Angular2 App on express server with pure Javascript",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Manfred Steiner <sx@htl-kaindorf.at>",
+  "license": "ISC",
+  "private": true,
+  "contributors": [],
+  "dependencies": {
+    "@angular/common": "^2.4.1",
+    "@angular/compiler": "^2.4.1",
+    "@angular/core": "^2.4.1",
+    "@angular/platform-browser": "^2.4.1",
+    "@angular/platform-browser-dynamic": "^2.4.1",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.0.2",
+    "zone.js": "^0.7.4"
+  }
+}
