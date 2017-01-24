@@ -13,7 +13,7 @@
           "node_modules/@types/"
         ]
     }, 
-    "compileOnSave": true,
+    "compileOnSave": false,
     "files": [
       "angular2/app/main.ts",
       "angular2/app/app.component.ts",

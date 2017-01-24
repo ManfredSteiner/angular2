@@ -12,12 +12,12 @@
         "typeRoots": [
           "node_modules/@types/"
         ]
-    },
+    }, 
     "compileOnSave": false,
     "files": [
-      "server.ts",
-      "public/app/main.ts",
-      "public/app/app.component.ts",
-      "public/app/app.module.ts"
+      "angular2/shared/hero.ts",
+      "angular2/app/main.ts",
+      "angular2/app/app.module.ts",
+      "angular2/app/app.component.ts"
     ]
 }
