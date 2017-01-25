@@ -44,6 +44,10 @@ The following rules are commonly accepted:
   Add a point and the element name for the filename.  
   Example *Component*: `app.component.ts`  
   Example *Service*: `app.service.ts`
+* **Angular 2 multiple elements per file:**  
+  If there is more than one element in the file ...
+  Example *Component*: `app.components.ts`  
+  Example *Service*: `app.services.ts`
 * **PascalCase words:**  
   Use a `-` to separate the words in the filename.  
   Example for `class PersonListManganger`: `person-list-manager.component.ts`
