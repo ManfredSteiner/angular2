@@ -24,6 +24,7 @@ coverage
 .lock-wscript
 
 # transpiled files
+public/ng2
 public/app/*.js
 public/app/*.js.map
 

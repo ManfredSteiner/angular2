@@ -135,12 +135,43 @@ To do (on Linux OS) ...
 2. change working directory to project and install node modules  
   `cd <project-dir>/dingo`  
   `npm install`
-3. Build the project (transpiling TypeScript files)  
-  `./node_modules/gulp/bin/gulp.js` or `gulp` (if gulp is installed as global module)
-4. start the server  
+3. transpile the project and start the server  
   `npm start`
-5. start a web-client and test the server  
+4. start a web-client and test the server  
   [http://localhost:8080](http://localhost:8080)
+
+--------------------------------------------------------------
+
+## Gulp.js and package.json
+
+With Gulp.js as build tool a transpilation of the typescript files is needed, before
+the server can be started.
+
+This transpilation is started automatically with the command `npm start`, because 
+all the needed steps are configured in the file [package.json](package.json).
+
+```
+  ...
+  "scripts": {
+    "prestart": "./node_modules/gulp/bin/gulp.js",
+    "start": "node src/server.js"
+  },
+  ...
+```
+See also [http://stackoverflow.com/questions/29939697](http://stackoverflow.com/questions/29939697) and
+[https://docs.npmjs.com/misc/scripts](https://docs.npmjs.com/misc/scripts) for more information.
+
+The following script values are available:
+
+* prepublish, publish, postpublish
+* preinstall, install, postinstall
+* preuninstall, uninstall, postuninstall
+* preversion, version, postversion
+* pretest, test, posttest
+* prestop, stop, poststop
+* prestart, start, poststart
+* prerestart, restart, postrestart
+* preCUSTOM and postCUSTOM for custom script names.
 
 To install gulp as global module, execute:  
 `sudo npm install -g gulp`  

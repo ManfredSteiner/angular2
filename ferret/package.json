@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Netbeans, Gulp , Express, Angular2, Typescript",
   "scripts": {
+    "prestart": "./node_modules/gulp/bin/gulp.js",
     "start": "node src/server.js"
   },
   "keywords": [
@@ -22,7 +23,6 @@
     "@angular/common": "^2.4.1",
     "@angular/compiler": "^2.4.1",
     "@angular/core": "^2.4.1",
-    "@angular/forms": "^2.4.4",
     "@angular/platform-browser": "^2.4.1",
     "@angular/platform-browser-dynamic": "^2.4.1",
     "express": "^4.14.0",

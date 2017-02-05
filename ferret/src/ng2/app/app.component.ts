@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
-import { Hero } from '../shared/hero';
 
-@Component({
+  @Component({
   selector: 'app-component',
   template: `
     <h1>{{title}}</h1>
+    <p>Tutorial: <a href="https://angular.io/docs/ts/latest/guide/user-input.html" target="_blank">
+      https://angular.io/docs/ts/latest/guide/user-input.html
+    </a>
     <p>
       <click-me></click-me>
     </p>

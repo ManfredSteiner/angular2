@@ -1,4 +1,3 @@
-
 # Angular 2 Tutorial - User Input 
 
 This project shows ...

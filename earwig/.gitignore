@@ -24,8 +24,9 @@ coverage
 .lock-wscript
 
 # transpiled files
-public/app/*.js
-public/app/*.js.map
+public/ng2
+#public/ng2/*.js
+#public/ng2/*.js.map
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
