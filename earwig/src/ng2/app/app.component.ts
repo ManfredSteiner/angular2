@@ -22,7 +22,7 @@ export class AppComponent {
   private myHero : Hero; 
   
   constructor() {
-    this.title = 'Angular2-Earwig / Tour of Heroes';
+    this.title = 'Angular2 Project Earwig / Tour of Heroes';
     this.heroes = [
       new Hero(1, 'Windstorm'),
       new Hero(2, 'Bombasto'),

@@ -39,6 +39,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   private title: string;
   constructor() {
-    this.title = 'Angular2-Ferret / Tour of Heroes / User Input';
+    this.title = 'Angular2 Project Ferret / User Input';
   }
 }

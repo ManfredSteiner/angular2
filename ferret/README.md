@@ -39,15 +39,10 @@ To do (on Linux OS) ...
 2. change working directory to project and install node modules  
   `cd <project-dir>/ferret`  
   `npm install`
-3. Build the project (transpiling TypeScript files)  
-  `./node_modules/gulp/bin/gulp.js` or `gulp` (if gulp is installed as global module)
-4. start the server  
+3. transpile the typescript files and start the server  
   `npm start`
-5. start a web-client and test the server  
+4. start a web-client and test the server  
   [http://localhost:8080](http://localhost:8080)
-
-To install gulp as global module, execute:  
-`sudo npm install -g gulp`  
 
 -------------------------------------------------------------
 
