@@ -12,7 +12,7 @@ var core_1 = require("@angular/core");
 var hero_1 = require("../shared/hero");
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = 'Angular2-Earwig / Tour of Heroes';
+        this.title = 'Angular2 Project Earwig / Tour of Heroes';
         this.heroes = [
             new hero_1.Hero(1, 'Windstorm'),
             new hero_1.Hero(2, 'Bombasto'),
