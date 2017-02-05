@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": ["es2015", "dom"],
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "typeRoots": [
+          "node_modules/@types/"
+        ]
+    }, 
+    "compileOnSave": false,
+    "files": [
+      "ng2/shared/hero.ts",
+      "ng2/shared/message.ts",
+      "ng2/app/main.ts",
+      "ng2/app/app.module.ts",
+      "ng2/app/app.component.ts",
+      "ng2/app/template-syntax.components.ts"
+    ]
+}

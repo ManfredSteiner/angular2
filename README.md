@@ -15,3 +15,4 @@ Here is a short description of each subproject:
 | [dingo](dingo) | Netbeans, Gulp.js, Node.js, Express | Simple "Hello Angular 2" in TypeScript |
 | [earwig](earwig) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 displaying data, structural directives |
 | [ferret](ferret) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 simple user input handling |
+| [gerbil](gerbil) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 tutorial template syntax |
