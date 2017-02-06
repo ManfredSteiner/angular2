@@ -1,4 +1,10 @@
-# Angular 2 Tutorial - User Input 
+# Project Ferret  
+
+|  |  |
+| --- | ---------- |
+| ![Project Logo](images/ferret.jpg) | This is a [Ferret (Frettchen)](https://a-z-animals.com/animals/ferret/) |
+
+## Angular 2 User Input 
 
 This project shows ...
 

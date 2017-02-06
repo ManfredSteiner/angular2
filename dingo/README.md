@@ -1,5 +1,10 @@
+# Project Dingo  
 
-# Netbeans with Node.js Express/Angular2/TypeScript project using gulp
+|  |  |
+| --- | ---------- |
+| ![Project Logo](images/dingo.jpg) | This is a [Dingo (Australischer Windhund)](https://a-z-animals.com/animals/dingo/) |
+ 
+## Hello Angular 2 
 
 This example shows:
 

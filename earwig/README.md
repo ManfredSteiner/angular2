@@ -1,5 +1,10 @@
+# Project Earwig  
 
-# Angular 2 - Tutorial 1
+|  |  |
+| --- | ---------- |
+| ![Project Logo](images/earwig.jpg) | This is a [Earwig (Ohrwurm)](https://a-z-animals.com/animals/earwig/) |
+ 
+## Angular 2 Tour of heros
 
 This tutorial shows:
 

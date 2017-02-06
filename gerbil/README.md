@@ -1,4 +1,10 @@
-# Angular 2 - Project Gerbil / Template Syntax
+# Project Gerbil  
+
+|  |  |
+| --- | ---------- |
+| ![Project Logo](images/gerbil.jpg) | This is a [Gerbil (Wüstenrennmaus)](https://a-z-animals.com/animals/gerbil/) |
+ 
+## Angular 2 template syntax
 
 This project shows how to use templates in Angluar 2.  
 It is directly linked to the tutorial [https://angular.io/docs/ts/latest/guide/template-syntax.html](https://angular.io/docs/ts/latest/guide/template-syntax.html).
