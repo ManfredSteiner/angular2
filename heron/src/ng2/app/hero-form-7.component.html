@@ -1,0 +1,45 @@
+<!-- https://angular.io/docs/ts/latest/guide/forms.html#create-an-initial-html-form-template -->
+<div class="container">
+  <h1>Hero Form</h1>
+    <form #heroForm="ngForm">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" required 
+               [(ngModel)]="model.name" name="name" #name="ngModel">
+        <div [hidden]="name.valid || name.pristine"
+             class="alert alert-danger">
+          Name is required
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="alterEgo">Alter Ego</label>
+        <input type="text" class="form-control" id="alterEgo"
+               [(ngModel)]="model.alterEgo" name="alterEgo">
+      </div>
+      <div class="form-group">
+        <label for="power">Hero Power</label>
+        <select class="form-control" id="power" required
+                [(ngModel)]="model.power" name="power">
+          <option *ngFor="let pow of powers" [value]="pow">{{pow}}</option>
+        </select>
+      </div>
+      <div>
+        <p>model attributes values:</p>
+        <ul>
+          <li>model.id = {{model.id}}</li>
+          <li>model.name = {{model.name}}</li>
+          <li>model.power = {{model.power}}</li>
+          <li>model.alterEgo = {{model.alterEgo}}</li>          
+        </ul>
+      </div>
+      <div style="padding-bottom:1em">
+        Press New Hero -> no "Name is reqired"<br>
+        Type something into Name...<br>
+        Press New Hero again -> "Name is required" appears also on empty field<br>
+        Solution: call reset() on heroForm (-> next template (7) )<br>
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+      <!-- create heroForm template variable in tag form -->
+      <button type="button" class="btn btn-default" (click)="newHero(); heroForm.reset()">New Hero</button>
+    </form>
+</div>

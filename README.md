@@ -16,3 +16,4 @@ Here is a short description of each subproject:
 | [earwig](earwig) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 displaying data, structural directives |
 | [ferret](ferret) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 simple user input handling |
 | [gerbil](gerbil) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 tutorial template syntax |
+| [heron](heron) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 forms |

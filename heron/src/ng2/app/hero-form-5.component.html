@@ -1,0 +1,36 @@
+<!-- https://angular.io/docs/ts/latest/guide/forms.html#create-an-initial-html-form-template -->
+<div class="container">
+    <h1>Hero Form</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" required 
+               [(ngModel)]="model.name" name="name" #spy>
+      </div>
+      <div class="form-group">
+        <label for="alterEgo">Alter Ego</label>
+        <input type="text" class="form-control" id="alterEgo"
+               [(ngModel)]="model.alterEgo" name="alterEgo">
+      </div>
+      <div class="form-group">
+        <label for="power">Hero Power</label>
+        <select class="form-control" id="power" required
+                [(ngModel)]="model.power" name="power">
+          <option *ngFor="let pow of powers" [value]="pow">{{pow}}</option>
+        </select>
+      </div>
+      <div>
+        <p>model attributes values:</p>
+        <ul>
+          <li>model.id = {{model.id}}</li>
+          <li>model.name = {{model.name}}</li>
+          <li>model.power = {{model.power}}</li>
+          <li>model.alterEgo = {{model.alterEgo}}</li>          
+        </ul>
+      </div>
+      <div style="padding-bottom:1em; font-weight: bold; color:red;">
+        Classes of input Name: {{spy.className}}
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+</div>
