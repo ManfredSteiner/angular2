@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": ["es2015", "dom"],
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "typeRoots": [
+          "node_modules/@types/"
+        ]
+    }, 
+    "compileOnSave": false,
+    "files": [
+      "ng2/heroes/hero.ts",
+      "ng2/heroes/heroes.component.ts",
+      "ng2/heroes/mock-heroes.ts",
+      "ng2/heroes/hero-list.component.ts",
+      "ng2/heroes/hero.service.ts",
+      "ng2/app/main.ts",
+      "ng2/app/app.module.ts",
+      "ng2/app/app.component.ts"
+    ]
+}

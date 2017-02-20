@@ -1,8 +1,8 @@
-# Project Heron  
+# Project Hippo  
 
 |  |  |
 | --- | ---------- |
-| ![Project Logo](images/heron.jpg) | This is a [Heron (Reiher)](https://a-z-animals.com/animals/heron/) |
+| ![Project Logo](images/hippo.png) | This is a [Hippopotamus (Nilpferd)](https://a-z-animals.com/animals/hippo/) |
  
 ## Angular 2 forms
 
@@ -11,6 +11,7 @@ This project shows ...
 * how to use Angluar 2 forms
 * how to use HTML snippets with absolut path in Angular 2 and Netbeans IDE
 * how to configure Gulp.js to copy some files and folders into a public folder
+* how the styling sheets of bootstrap framework is used
 
 A form creates a cohesive, effective, and compelling data entry experience.
 An Angular form coordinates a set of data-bound user controls, tracks changes, validates input, and presents errors.
@@ -36,7 +37,7 @@ You will learn:
 
 * **hero-form-5.component.html**  
   Track state (valid, invalid, ...) of form controls with ngModel and add custom CSS styles for visual feedback.
-  Use the template variable `#spy` to show the classes of a DOM object (usful for debugging).  
+  Use the template variable `#spy` to show the classes of a DOM object (useful for debugging).  
   [https://angular.io/docs/ts/latest/guide/forms.html#!#track-control-state-and-validity-with-_ngmodel_](https://angular.io/docs/ts/latest/guide/forms.html#!#track-control-state-and-validity-with-_ngmodel_)
 
 * **hero-form-6.component.html**, **hero-form-7.component.html**  
@@ -67,7 +68,7 @@ To do (on Linux OS) ...
 1. open shell and clone git repository  
   `git clone <repository-url>`
 2. change working directory to project and install node modules  
-  `cd <project-dir>/heron`  
+  `cd <project-dir>/hippo`  
   `npm install`
 3. build the project and start the server  
   `npm start`
