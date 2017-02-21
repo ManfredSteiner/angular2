@@ -9,12 +9,12 @@ Here is a short description of each subproject:
 
 | Subproject | Uses... | Angular 2 Application Description |
 | :--- | ---- | :--- |
-| [axolotl](axolotl) | Netbeans, Node.js, Lite-Server | Simple "Hello Angular 2" in Javascript |
-| [booby](booby) | Netbeans, Node.js, Express | Simple "Hello Angular 2" in Javascript |
-| [crane](crane) | Netbeans, Node.js, Express | Simple "Hello Angular 2" in TypeScript |
+| [armadillo](armadillo) | Netbeans, Node.js, Lite-Server | Simple "Hello Angular 2" in Javascript |
+| [beaver](beaver) | Netbeans, Node.js, Express | Simple "Hello Angular 2" in Javascript |
+| [camel](camel) | Netbeans, Node.js, Express | Simple "Hello Angular 2" in TypeScript |
 | [dingo](dingo) | Netbeans, Gulp.js, Node.js, Express | Simple "Hello Angular 2" in TypeScript |
-| [earwig](earwig) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 displaying data, structural directives |
+| [eagle](eagle) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 displaying data, structural directives |
 | [ferret](ferret) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 simple user input handling |
-| [gerbil](gerbil) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 tutorial template syntax |
+| [gecko](gecko) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 tutorial template syntax |
 | [hippo](hippo) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 forms |
-| [ibis](ibis) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 Dependency Injection and Services part 1 (basics) |
+| [ibis](ibis) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 Dependency Injection |

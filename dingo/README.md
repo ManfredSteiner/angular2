@@ -2,7 +2,7 @@
 
 |  |  |
 | --- | ---------- |
-| ![Project Logo](images/dingo.jpg) | This is a [Dingo (Australischer Windhund)](https://a-z-animals.com/animals/dingo/) |
+| ![Project Logo](images/dingo.png) | This is a [Dingo (Australischer Windhund)](https://a-z-animals.com/animals/dingo/) |
  
 ## Hello Angular 2 
 
@@ -12,6 +12,7 @@ This example shows:
 * how to use **Gulp.js** to build the Angular 2 TypeScript project
 * how to create and run a Web-Server based on **Node.js Express**
 * how to use **TypeScript** as source file language 
+* how to use option *include* in file [tsconfig.json](src/tsconfig.json)
 * how to use an **Angular 2** application supported by this Web-Server
 
 Follow the links to find some more information for
@@ -265,7 +266,14 @@ the command `tsc` from the Node.js module *typescript* is used.
 This tool looks for a configuration file *tsconfig.json*, before it starts to transform all *.ts* files
 which can be found in the project directory (and the subdirectories).
 
-Create the file [tsconfig.json](src/tsconfig.json) in the project base folder
+Create the file [tsconfig.json](src/tsconfig.json) in the project base folder. 
+Instead of setting every typscript source file (option *files*), the option *include* is
+used. See also [https://www.typescriptlang.org/docs/handbook/tsconfig-json.html](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html). 
+This makes it more comfortable for the user, because there is no need to change *tsconfig.js* in case
+of new, removed or renamed source file.
+
+
+
 
 ### Configure Gulp.js building tool
 

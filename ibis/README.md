@@ -1,24 +1,25 @@
-# Project Ibis  
+# Project Ibis
 
 |  |  |
 | --- | ---------- |
 | ![Project Logo](images/ibis.png) | This is a [Ibis (Rapp)](https://a-z-animals.com/animals/ibis/) |
- 
-## Angular 2 services and injections
-### Part 1 - Basics
 
+## Angular 2 services and injections
+ 
 This project shows ...
 
-* how to use Angluar 2 services and injections
-* how to define CSS styles inside the Angular 2 Component
+* How to define CSS styles inside the Angular 2 Component
 * how to enable Angular 2 productive mode
+* What is dependency injection ([part 1](src/ng2/app/part1))
+* How to use Angluar dependency injection ([part 2](src/ng2/app/part2))
+* How to use Angluar services ([part 2](src/ng2/app/part2))
+* How to create and register a logger service ([part 2](src/ng2/app/part2))
+* How to use injector providers ([part 2](src/ng2/app/part2))
+* How to use dependency injective tokens ([part 3](src/ng2/app/part3))
+* How to use optional dependencies ([part 4](src/ng2/app/part4))
 
-Open [Angular 2 tutorial Services](https://angular.io/docs/ts/latest/tutorial/toh-pt4.html)
-and work through from beginning to chapter 
-[Preparing the HeroListComponent for injection](https://angular.io/docs/ts/latest/guide/dependency-injection.html#preparing-the-herolistcomponent-for-injection).
-
-See file [app.component.ts](src/ng2/app/app.component.ts) to see how to define CSS styles inside
-a Component.
+Open [Angular 2 guide DEPENDENCY INJECTION](https://angular.io/docs/ts/latest/guide/dependency-injection.html)
+and work through.
 
 See file [main.ts](src/ng2/app/main.ts) to see how to enable productive mode.  
 Uncomment the two productive mode statements to enable productive mode.

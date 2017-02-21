@@ -14,15 +14,6 @@
         ]
     }, 
     "compileOnSave": false,
-    "files": [
-      "ng2/shared/hero.ts",
-      "ng2/app/main.ts",
-      "ng2/app/app.module.ts",
-      "ng2/app/app.component.ts",
-      "ng2/app/click-me.component.ts",
-      "ng2/app/click-me2.component.ts",
-      "ng2/app/keyup.components.ts",
-      "ng2/app/loop-back.component.ts",
-      "ng2/app/little-tour.component.ts"
-    ]
+    "include": [ "ng2/app", "ng2/shared" ]
+
 }

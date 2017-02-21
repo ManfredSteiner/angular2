@@ -2,7 +2,7 @@
 
 |  |  |
 | --- | ---------- |
-| ![Project Logo](images/ferret.jpg) | This is a [Ferret (Frettchen)](https://a-z-animals.com/animals/ferret/) |
+| ![Project Logo](images/ferret.png) | This is a [Ferret (Frettchen)](https://a-z-animals.com/animals/ferret/) |
 
 ## Angular 2 User Input 
 

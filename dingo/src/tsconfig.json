@@ -15,9 +15,5 @@
         ]
     }, 
     "compileOnSave": false,
-    "files": [
-      "ng2/app/main.ts",
-      "ng2/app/app.component.ts",
-      "ng2/app/app.module.ts"
-    ]
+    "include": [ "ng2/app" ]
 }
