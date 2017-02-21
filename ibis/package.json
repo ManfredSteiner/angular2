@@ -1,7 +1,7 @@
 {
   "name": "ibis",
   "version": "1.0.0",
-  "description": "Angular 2 services and injections - part 1 - basics",
+  "description": "Angular 2 dependency injections",
   "scripts": {
     "prestart": "./node_modules/gulp/bin/gulp.js",
     "start": "node src/server.js"
