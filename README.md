@@ -18,3 +18,4 @@ Here is a short description of each subproject:
 | [gecko](gecko) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 tutorial template syntax |
 | [hippo](hippo) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 forms |
 | [ibis](ibis) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 Dependency Injection |
+| [jackal](jackal) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 Tutorial Services |
