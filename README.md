@@ -19,3 +19,4 @@ Here is a short description of each subproject:
 | [hippo](hippo) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 forms |
 | [ibis](ibis) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 Dependency Injection |
 | [jackal](jackal) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 Tutorial Services |
+| [kiwi](kiwi) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 Tutorial Routing |

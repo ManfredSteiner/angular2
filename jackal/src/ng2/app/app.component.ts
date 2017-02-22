@@ -6,6 +6,7 @@ import { HeroService } from './heroes/hero.service';
   selector: 'app-component',
   template: `
     <h1>{{title}}</h1>
+    Tutorial: <a href="{{url}}" target="_blank">{{url}}</a>
     <h2>My Heroes</h2>
     <ul class="heroes">
       <li *ngFor="let hero of heroes"
@@ -78,6 +79,7 @@ import { HeroService } from './heroes/hero.service';
 })
 export class AppComponent implements OnInit {
   title = 'Tour of Heroes';
+  url = "https://angular.io/docs/ts/latest/tutorial/toh-pt4.html";
   heroes: Hero[];
   slowHeroes: Hero[];
   selectedHero: Hero;
