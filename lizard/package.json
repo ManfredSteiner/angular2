@@ -1,0 +1,49 @@
+{
+  "name": "lizard",
+  "version": "1.0.0",
+  "description": "Angular 2 Tutorial HTTP",
+  "scripts": {
+    "prestart": "./node_modules/gulp/bin/gulp.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "netbeans",
+    "gulp",
+    "express",
+    "angular2",
+    "typescript",
+    "server",
+    "client"
+  ],
+  "author": "Manfred Steiner <sx@htl-kaindorf.at>",
+  "license": "ISC",
+  "private": true,
+  "contributors": [],
+  "dependencies": {
+    "@angular/common": "^2.4.8",
+    "@angular/compiler": "^2.4.8",
+    "@angular/core": "^2.4.8",
+    "@angular/forms": "^2.4.8",
+    "@angular/http": "^2.4.8",
+    "@angular/platform-browser": "^2.4.8",
+    "@angular/platform-browser-dynamic": "^2.4.8",
+    "@angular/router": "^3.4.8",
+    "angular-in-memory-web-api": "^0.2.4",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "morgan": "^1.8.1",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.1.1",
+    "systemjs": "^0.20.9",
+    "zone.js": "^0.7.7"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^1.3.2",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-typescript": "^3.1.5",
+    "gulp-using": "^0.1.1",
+    "typescript": "^2.1.6"
+  }
+}

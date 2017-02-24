@@ -20,3 +20,4 @@ Here is a short description of each subproject:
 | [ibis](ibis) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 Dependency Injection |
 | [jackal](jackal) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 Tutorial Services |
 | [kiwi](kiwi) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 Tutorial Routing |
+| [lizard](lizard) | Netbeans, Gulp.js, Node.js, Express, Typescript | Angular 2 Tutorial HTTP, data management with express server |
