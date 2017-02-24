@@ -25,7 +25,7 @@ Open [Angular 2 Tutorial HTTP][4] and work through.
 
 Comment out the line  `InMemoryWebApiModule.forRoot(InMemoryDataService),` 
 in file [app.module.ts][5] to disable [Angular 2 In-Memory-Web-API][3] and
-to use the data mangement i the express web server instead (see file [server.js][6])
+to use the data mangement in the express web server instead (see file [server.js][6])
 
 --------------------------------------------------------------
 
