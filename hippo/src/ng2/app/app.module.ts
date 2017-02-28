@@ -4,6 +4,9 @@ import { FormsModule }   from '@angular/forms';
 
 import { AppComponent }  from './app.component';
 import { HeroFormComponent } from './hero-form.component';
+import { NameValidator } from './name.validator';
+import { ValidatedFormComponent } from './validated-form.component';
+
 
 @NgModule({
   imports: [
@@ -12,7 +15,8 @@ import { HeroFormComponent } from './hero-form.component';
   ],
   declarations: [
     AppComponent,
-    HeroFormComponent
+    HeroFormComponent,
+    NameValidator, ValidatedFormComponent
   ],
   bootstrap: [ AppComponent ]
 })

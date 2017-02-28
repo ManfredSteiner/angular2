@@ -8,7 +8,8 @@
 
 This project shows ...
 
-* how to use Angluar 2 forms
+* how to use Angluar 2 template driven forms
+* how to use Angular 2 Directives for validation of input fields
 * how to use HTML snippets with absolut path in Angular 2 and Netbeans IDE
 * how to configure Gulp.js to copy some files and folders into a public folder
 * how the styling sheets of bootstrap framework is used
@@ -20,6 +21,9 @@ Open [Angular 2 tutorial Forms](https://angular.io/docs/ts/latest/guide/forms.ht
 to work through step by step.  
 Start with **hero-form-1.component.html** in [hero-form.component](src/ng2/app/hero-form.component.ts)
 and go ahead up to **hero-form-8.component**.
+
+For input validiation with Angular 2 Directives see 
+[https://juristr.com/blog/2016/11/ng2-template-driven-form-validators/](https://juristr.com/blog/2016/11/ng2-template-driven-form-validators/).
 
 You will learn:
 

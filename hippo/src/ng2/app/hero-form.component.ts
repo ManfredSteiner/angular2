@@ -1,3 +1,6 @@
+// Custom Validator
+// https://juristr.com/blog/2016/11/ng2-template-driven-form-validators/
+
 import { Component } from '@angular/core';
 import { Hero }      from '../shared/hero';
 
@@ -25,7 +28,7 @@ import { Hero }      from '../shared/hero';
   
   // https://angular.io/docs/ts/latest/guide/forms.html#two-way-data-binding-with-_ngmodel_
   // two way binding for name, ego and power
-  //templateUrl: 'html/app/hero-form-4.component.html'
+  templateUrl: 'html/app/hero-form-4.component.html'
   
   // https://angular.io/docs/ts/latest/guide/forms.html#track-control-state-and-validity-with-_ngmodel_
   //templateUrl: 'html/app/hero-form-5.component.html'
@@ -37,7 +40,7 @@ import { Hero }      from '../shared/hero';
   // https://angular.io/docs/ts/latest/guide/forms.html#toggle-two-form-regions-extra-credit-
   //templateUrl: 'html/app/hero-form-8.component.html'
       
-  templateUrl: 'html/app/hero-form.component.html'
+  //templateUrl: 'html/app/hero-form.component.html'
 })
 export class HeroFormComponent {
 
