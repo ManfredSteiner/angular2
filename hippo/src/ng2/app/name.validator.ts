@@ -6,6 +6,17 @@ import { NG_VALIDATORS, AbstractControl, ValidatorFn, Validator, FormControl } f
 function validateNameFactory() : ValidatorFn {
   return (c: AbstractControl) => {
     
+    if (c && typeof(c) === 'object') {
+      let info = 'ValidatorFn(c) with c:' + c.constructor.name;
+      info += '={..., ';
+//      for(let propertyName in c) {
+//        info += propertyName + ',';
+//      }
+      if (c.value && typeof(c.value) === 'string')
+        info += "value:string='" + c.value;
+      info += "'}";
+      console.log(info);
+    }
     if (c && c.value && typeof(c.value) === 'string') {
       let isValid = c.value.startsWith('Super');
       if(isValid) 
